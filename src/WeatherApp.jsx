@@ -12,8 +12,8 @@ import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { motion } from "framer-motion";
 import "./App.css";
+const API_KEY = import.meta.env.VITE_API_KEY;
 
-const API_KEY = "f1cd684e19dbb07c8abd73b512e9410d";
 
 const WeatherApp = () => {
   const [city, setCity] = useState("Dushanbe");
